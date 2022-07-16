@@ -1,0 +1,161 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    /* background-color: #222222; */
+    background-color: #BDE038;
+}
+
+.wrap{
+    display: flex;
+    flex-direction: row;
+    width: 80vw;
+    height: 100%;
+    margin: 10px auto;
+    background-color: white;
+}
+
+#aside{
+    display: flex;
+    flex-direction: column;
+    /* background: #dedede; */
+    background-color: #A3AB78;
+    width: 40%;
+}
+
+#aside .content div:last-child a{
+    text-decoration: none;
+    color: #3f3f3f;
+    transition: all 300ms;
+}
+
+#aside .content div:last-child a:hover{
+    transform: scale(1.2, 1.2);
+    font-style: oblique;
+    color: #506266;
+}
+
+.content{
+    width: 100%;
+    height: 100%;
+}
+
+#my-photo{
+    margin: 50px auto;
+    width: 250px;
+}
+
+#my-photo img{
+    border-radius: 50%;
+    width: 100%;
+}
+
+#sheet{
+    width: 60%;
+    height: 100%;
+    /* background-color: red; */
+}
+
+.box{
+    width: 75%;
+    margin: 15px auto;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: .5px;
+    text-transform: uppercase;
+    color: #3f3f3f;
+    
+}
+
+.box h2{
+    display: inline;
+    border-bottom: 4px solid black;
+}
+
+.box p{
+    margin-top: 5%;
+    text-transform: none;
+    text-align: justify;
+    /* background-color: rebeccapurple; */
+}
+
+.box ul{
+    margin: 25px auto;
+}
+
+.box li{
+    text-transform: none;
+    display: flex;
+    list-style: none;
+    margin-top: 15px;
+}
+
+.icon{
+    margin-right: 15px;
+    font-size: 25px;
+    color: #222222;
+}
+
+.fullname_title{
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 50px;
+}
+
+#name{
+    color: #A3AB78;
+}
+
+#surname{
+    color: #818274;
+    margin-left: 15px;
+}
+
+#sheet .content{
+    margin-left: 20px;
+}
+
+#degree{
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#818274;
+    width: 80%;
+}
+
+#sheet .box{
+    
+    margin: 20px 0px 0px 0px;
+    width: 85%;
+
+}
+
+#sheet .box ul li ul{
+    margin-left: 50px;
+    margin-top:0px;
+}
+
+#sheet .box ul li p{
+    margin-top: 5px;
+}
+
+#sheet .box li{
+    display: block;
+    margin-top: 0px;
+}
+#sheet .box li:first-child{
+    margin-top: 10px;
+}
+
+#sheet .box div ul div{
+    display: inline;
+}
+
+.item-edu{
+    margin-bottom: 20px;
+}
+

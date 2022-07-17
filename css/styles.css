@@ -184,6 +184,7 @@ body{
     line-height: 70px;
     display:block;
     transition: all 300ms;
+    color: white;
 }
 
 .button a:visited{
@@ -193,4 +194,96 @@ body{
 .button:hover a{
     background-color: #3f3f3f;
     text-shadow: 1px 1px 1px black, 1px 2px 1px black , 1px 3px 1px black, 1px 4px 1px black   ;
+}
+
+/*Responsive Design*/
+@media(max-width: 1080px){
+    .fullname_title{
+        font-size:25px;
+    }
+
+    #degree{
+        font-size: 21px;
+    }
+
+}
+
+@media(max-width:1246px){
+    #aside .content #contact h2{
+        border:none;
+    }
+    
+    #contact{
+        border-bottom: 4px solid black;
+        width: 70%;
+    }
+}
+
+@media(max-width:920px){
+    #title{
+        font-size: 20px;
+    }
+
+    #degree{
+        font-size: 16px;
+    }
+
+    .box{
+        font-size: 12px;
+    }
+
+    .icon{
+        font-size: 13px;
+    }
+
+    #my-photo{
+        width: 200px;
+    }
+
+    #sheet .button{
+        font-size: 15px;
+        width:60%;
+        height: 60px;
+    }
+
+    .button a{
+        line-height: 60px;
+    }
+}
+
+
+@media(max-width:720px){
+    #title{
+        font-size: 18px;
+    }
+
+    #degree{
+        font-size: 14px;
+    }
+
+    .box{
+        font-size: 10px;
+    }
+
+    .icon{
+        font-size: 11px;
+    }
+
+    #my-photo{
+        width: 198px;
+    }
+
+    #sheet .button{
+        font-size: 10px;
+        width: 55%;
+        height: 55px;
+    }
+
+    .button a{
+        line-height: 58px;
+    }
+
+    #sheet .box ul li ul{
+        margin-left: 15px;
+    }
 }

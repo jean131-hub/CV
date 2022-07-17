@@ -289,6 +289,56 @@ body{
     }
 }
 
+@media(max-width:480px){
+
+    .wrap{
+        width: 95vw;
+    }
+    
+    #title{
+        font-size: 13px;
+    }
+
+    #degree{
+        font-size: 12px;
+    }
+
+    .box{
+        font-size: 13px;
+    }
+
+    .box h2{
+        font-size: 15px;
+        border-bottom: 2px solid black;
+    }
+    .icon{
+        font-size: 11px;
+    }
+
+    #my-photo{
+        width: 140px;
+    }
+
+    #sheet .button{
+        font-size: 10px;
+        width: 98%;
+        height: 38px;
+    }
+
+    .button a{
+        line-height: 38px;
+    }
+
+    #sheet .box ul li ul{
+        margin-left: 10px;
+        text-align: justify;
+    }
+
+    #sheet .box li{
+        margin-top: 5px;
+    }
+}
+
 @media(max-width:390px){
     #title{
         font-size: 8px;
